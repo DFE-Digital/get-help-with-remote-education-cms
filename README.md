@@ -24,12 +24,10 @@ Node version `14.x.x`
 On Mac OS, [Docker Desktop / Docker for Mac](https://docs.docker.com/docker-for-mac/install/)
 will need to be installed first and running
 
-Setup a `.env` file to hold environment variables and fill in the missing values
+Setup a `.env` file to hold environment variables
 (do not commit this file)
 
-`cp .env.example .env`
-
-add development database to .env: govuk_rails_boilerplate_development
+`cp .env.local.example .env`
 
 ### To run the application locally with docker:
 
