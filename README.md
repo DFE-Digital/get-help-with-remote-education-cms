@@ -1,5 +1,7 @@
 ![Deploy](https://github.com/DFE-Digital/govuk-rails-boilerplate/workflows/Deploy/badge.svg)
 
+# This is an experimental fork of the new [EYFS CMS](https://github.com/DFE-Digital/early-years-foundation-reform) adapted for use for the GHRE service
+
 # Early Years Reform Framework
 
 This is a minimalistic content management system, written in Ruby on Rails
