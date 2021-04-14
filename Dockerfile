@@ -54,3 +54,5 @@ RUN yarn install
 COPY . /app/
 
 RUN bundle exec rake assets:precompile
+
+CMD bundle exec rake db:prepare db:seed && bundle exec rails s -b 0.0.0.0
