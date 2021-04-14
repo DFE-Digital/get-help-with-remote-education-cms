@@ -27,7 +27,6 @@ For schools and colleges developing their remote education through live and reco
 
 ## Securing remote education
 
-
 To help keep pupils, students and staff safe whilst learning remotely, we have worked with the NCSC to provide guidance on making sure accounts, devices and services are configured securely.
 
 The [Home learning technology guidance](https://www.ncsc.gov.uk/blog-post/home-learning-technology-securing-tools-for-remote-education) will help with a number of security considerations for remote education.
