@@ -96,5 +96,5 @@ locals {
     var.secret_paas_app_env_values
   )
   is_production = var.environment == "production"
-  service_name = "eyfs"
+  service_name = "ghre-eyfs-cms-alpha"
 }

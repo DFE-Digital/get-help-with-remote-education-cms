@@ -1,9 +1,11 @@
 name: Deploy to Dev
 
 on:
-  push:
-    branches:
-      - main
+  workflow_dispatch:
+    inputs:
+      paas_sso_passcode:
+        description: paas_sso_passcode
+        required: true
 
 jobs:
   deploy:
@@ -12,7 +14,7 @@ jobs:
     steps:
       - name: setup-inputs
         run: |
-          INPUTS='${{ format('{{"environment": "dev", "ref": "{0}"}}', github.sha) }}'
+          INPUTS='${{ format('{{"environment": "dev", "ref": "{0}", "paas_sso_passcode": "{1}"}}', github.sha, github.event.inputs.paas_sso_passcode) }}'
           echo "INPUTS=${INPUTS}" >> $GITHUB_ENV
 
       - name: trigger-deploy

@@ -128,7 +128,7 @@ They have more comprehensive documentation that shouldn't be repeated but refere
 
 - [BAT Gov.uk PaaS](https://dfedigital.atlassian.net/wiki/spaces/BaT/pages/1905066044/Gov.uk+PaaS)
 - [BAT Github Actions](https://dfedigital.atlassian.net/wiki/spaces/BaT/pages/1649672271/Github+Actions)
-- [DockerHub](https://dfedigital.atlassian.net/wiki/spaces/BaT/pages/1602650124/DockerHub)
+- [Github ](https://dfedigital.atlassian.net/wiki/spaces/BaT/pages/1602650124/DockerHub)
 - [DNS](https://dfedigital.atlassian.net/wiki/spaces/BaT/pages/1905262678/DNS)
 - [Custom Domain setup](https://dfedigital.atlassian.net/wiki/spaces/BaT/pages/2012938241/Create+a+custom+domain)
 - [Terraform](https://dfedigital.atlassian.net/wiki/spaces/BaT/pages/1935179870/Terraform)
