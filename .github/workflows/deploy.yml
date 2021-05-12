@@ -75,6 +75,8 @@ jobs:
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           TF_VAR_paas_sso_passcode: ${{ github.event.inputs.paas_sso_passcode }}
         run: |
+          echo "ENV:"
+          echo ${{env}}
           export TF_VAR_paas_app_docker_image=${{ env.DOCKER_IMAGE }}
           cd terraform/app
           terraform init -reconfigure -input=false -backend-config="bucket=${{secrets.AWS_BUCKET}}"

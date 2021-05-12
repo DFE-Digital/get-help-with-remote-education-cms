@@ -46,9 +46,9 @@ variable cms_app_start_command {
 locals {
 
   app_env_domain  = {
-    "DOMAIN" = "eyfs-${var.environment}.london.cloudapps.digital"
-    "GOVUK_APP_DOMAIN" = "eyfs-${var.environment}.london.cloudapps.digital"
-    "GOVUK_WEBSITE_ROOT" = "eyfs-${var.environment}.london.cloudapps.digital"
+    "DOMAIN" = "${var.service_name}-${var.environment}.london.cloudapps.digital"
+    "GOVUK_APP_DOMAIN" = "${var.service_name}-${var.environment}.london.cloudapps.digital"
+    "GOVUK_WEBSITE_ROOT" = "${var.service_name}-${var.environment}.london.cloudapps.digital"
   }
   app_environment = merge(
     local.app_env_domain,
