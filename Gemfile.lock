@@ -115,7 +115,7 @@ GEM
     coderay (1.1.3)
     coercible (1.0.0)
       descendants_tracker (~> 0.0.1)
-    concurrent-ruby (1.1.8)
+    concurrent-ruby (1.1.10)
     crass (1.0.6)
     cucumber (6.0.0)
       builder (~> 3.2, >= 3.2.4)
@@ -144,11 +144,6 @@ GEM
       cucumber-messages (~> 15.0, >= 15.0.0)
     cucumber-messages (15.0.0)
       protobuf-cucumber (~> 3.10, >= 3.10.8)
-    cucumber-rails (1.4.0)
-      capybara (>= 1.1.2)
-      cucumber (>= 1.2.0)
-      nokogiri (>= 1.5.0)
-      rails (>= 3.0.0)
     cucumber-tag-expressions (3.0.1)
     cucumber-wire (5.0.0)
       cucumber-core (~> 9.0, >= 9.0.0)
@@ -176,8 +171,8 @@ GEM
     factory_bot_rails (6.1.0)
       factory_bot (~> 6.1.0)
       railties (>= 5.0.0)
-    faker (2.17.0)
-      i18n (>= 1.6, < 2)
+    faker (2.22.0)
+      i18n (>= 1.8.11, < 2)
     faraday (1.4.1)
       faraday-excon (~> 1.1)
       faraday-net_http (~> 1.0)
@@ -218,7 +213,7 @@ GEM
       temple (>= 0.8.0)
       tilt
     htmlentities (4.3.4)
-    i18n (1.8.10)
+    i18n (1.12.0)
       concurrent-ruby (~> 1.0)
     ice_nine (0.11.2)
     jmespath (1.4.0)
@@ -249,6 +244,8 @@ GEM
     multipart-post (2.1.1)
     nio4r (2.5.7)
     nokogiri (1.11.3-x86_64-darwin)
+      racc (~> 1.4)
+    nokogiri (1.11.3-x86_64-linux)
       racc (~> 1.4)
     nokogumbo (2.0.5)
       nokogiri (~> 1.8, >= 1.8.4)
@@ -449,6 +446,7 @@ GEM
 
 PLATFORMS
   x86_64-darwin-19
+  x86_64-linux
 
 DEPENDENCIES
   active_storage_validations (~> 0.9)
@@ -466,7 +464,7 @@ DEPENDENCIES
   devise (>= 4.7.3)
   dotenv-rails (~> 2.7)
   factory_bot_rails (~> 6.1)
-  faker (~> 2.17)
+  faker (~> 2.22)
   foreman (~> 0.87)
   govspeak (~> 6.7)
   haml (~> 5.2)
