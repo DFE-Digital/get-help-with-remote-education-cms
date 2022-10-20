@@ -21,7 +21,7 @@ gem "webpacker", "~> 5.2"
 
 gem "haml", "~> 5.2"
 
-gem "active_storage_validations", "~> 0.9"
+gem "active_storage_validations", "~> 1.0"
 gem "aws-sdk-s3", "~> 1.1"
 
 # Use ActiveStorage variant
